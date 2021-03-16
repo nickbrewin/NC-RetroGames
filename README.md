@@ -58,7 +58,12 @@ Password is recalboxroot
 Open Share > Roms > PSX and just drag and drop files in **NB Make sure all files for each game are added including the .cue .sub .ccd .bin .img files as games will not work otherwise**
 Go back to share , then > BIOS and add all of the BIOS files from the PS! BIOS files link above (should be 6 scphXXXX.bin files, XXXX are numbers)
 
-
 **Link for Playstation 1 Games** https://the-eye.eu/public/rom/Playstation/Games/NTSC/  **Note I do not sell consoles with games or provide my own game content as this would be copyright infringement. 
 
 **After unzipping these files I recommend renaming those that do not match their official name eg: Change GTA2 to Grand Theft Auto 2 to help the system find the artwork etc
+
+**Add Original PS1 startup/other custom startup** NB There is a copy of the original PS! start up video in the How to Videos Section
+In file explorer type in \\RECALBOX
+go to system > resources > splash
+delete all other files in the folder and copy your desired video into the folder
+Put the intro video file in recalbox/system/resources/splash and delete all other video files
