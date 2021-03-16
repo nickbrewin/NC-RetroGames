@@ -1,6 +1,6 @@
 # NC-RetroGames Systems
 
-**Set-up Instructions- Please note that due to copyright laws I cannot provide the game playing software or the games themselves. However it is easy to do and i'm happy to help out if you encounter any issues!**
+**Set-up Instructions- Please note that due to copyright laws I cannot provide the game playing software or the games themselves. However it is easy to do and i'm happy to help out if you encounter any issues!** NB: Video guides can be found in the How to Guides section
 
 **Install recalbox Operating system**
 Insert blank micro SD card into computer (Open the disc drive
