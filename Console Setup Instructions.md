@@ -3,6 +3,7 @@
 **Set-up Instructions- Please note that due to copyright laws I cannot provide the game playing software or the games themselves. However it is easy to do and i'm happy to help out if you encounter any issues!** NB: Video guides can be found in the How to Guides section
 
 **Install recalbox Operating system**
+
 Insert blank micro SD card into computer (Open the disc drive
 Download Raspberry PI Imager https://www.raspberrypi.org/software/ 
 Install for your device (Windows or Mac).
@@ -13,13 +14,15 @@ Select WRITE  (This will take around 15mins.).
 Remove SD card and insert back into console (microchip side down)
 
 **Configure Controllers** NB The front ports are designed to accept original PS1 controllers. USB controllers can be plugged into the rear usb along with Bluetooth controllers
+
 On first start up a pop up will say x Gamepads detected, hold a button on your device to configure it.
 Hold any button down to go to the mapping screen and assign all the buttons appropriately (FYI- North East South West is Triangle, Circle, X, Square.
 Ensure to assign select as the hotkey enable button
 To change/add new controllers including wireless controllers and change the assigned player 1/2/3/4 controllers go to main menu > Controllers settings
 
 **Enable Power/RESET Buttons and Power LED**
-Follow this video guide...
+
+Follow the video guide in https://github.com/nickbrewin/NC-RetroGames/tree/How-to-Videos
 or
 In Web browser type \\RECALBOX
 Username is root
@@ -37,6 +40,7 @@ System can take 30 seocnds to boot and will show blackscreen and the LED will tu
 
 
 **Set Audio Output to HDMI/3.5mm Headphone Jack**
+
 Go to Main Menu > Sound Settings > Output Device   (NB- Set front end Music to Off to remove the preset music from the menu)
 
 **Reconfigure Theme/Skin**
@@ -44,11 +48,17 @@ Go to Main Menu > UI Settings > Theme Set- RECALBOX-NEXT   (NB You can pick any 
 Next go to Theme COnfig > Theme Icons- 5-PSX to enable PS1 button icons
 
 **Enable Wi-FI**
+
 Press Start > Network Settings > Enable WiFi- ON
 Goto to WiFi SSID and enter your network name
 Go to WiFi Key and enter your Password
 
-**Transfer Games/BIOS** **NB** **It is essential that you upload a BIOS file onto the system as this will help run the games much smoother. A video guide can be found here ****
+**Upload a BIOS** It is essential that you upload a BIOS file onto the system as this will help run the games much smoother. A video guide can be found in https://github.com/nickbrewin/NC-RetroGames/tree/How-to-Videos
+
+In File Explorer, type in \\RECALBOX
+go to share > BIOS and add all of the BIOS files from the PS1 BIOS files section (link-  https://github.com/nickbrewin/NC-RetroGames/tree/PS1-BIOS-Files )
+
+**Transfer Games**
 
 Follow the video guide here..
 or
@@ -58,7 +68,9 @@ Password is recalboxroot
 Open Share > Roms > PSX and just drag and drop files in **NB Make sure all files for each game are added including the .cue .sub .ccd .bin .img files as games will not work otherwise**
 Go back to share , then > BIOS and add all of the BIOS files from the PS! BIOS files link above (should be 6 scphXXXX.bin files, XXXX are numbers)
 
+
 **Finding Playstation 1 Games**
+ 
  Note: I cannot sell consoles with games included or host my own game content as this would be copyright infringement. 
  However a quick google search for playstation rom packs should easily find what you need.
  On an unrelated matter, a particularly interesting website I found is https://the-eye.eu/
@@ -67,11 +79,12 @@ After unzipping these files I recommend renaming those that do not match their o
 
 **Display game artwork/descriptions + video preview (Scraping)**
 
-follow this video guide from recal box https://www.youtube.com/watch?v=xd1i1mJdkjU
+Follow this video guide from recal box https://www.youtube.com/watch?v=xd1i1mJdkjU
 or 
 go to Main Menu > Scraper > Scrape Now   NB: if the system dtruggles to find a game, change the 'get game name from' to raw filename or undecorated filename or any of the other options
 
 **Add Original PS1 startup/other custom startup** NB There is a copy of the original PS! start up video in the How to Videos Section
+
 In file explorer type in \\RECALBOX
 go to system > resources > splash
 delete all other files in the folder and copy your desired video into the folder
