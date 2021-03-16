@@ -12,11 +12,11 @@ Select ‘CHOOSE SD CARD’ and select your SD card from the list.
 Select WRITE  (This will take around 15mins.).
 Remove SD card and insert back into console (microchip side down)
 
-**Configure Controllers**
+**Configure Controllers** NB The front ports are designed to accept original PS1 controllers. USB controllers can be plugged into the rear usb along with Bluetooth controllers
 On first start up a pop up will say x Gamepads detected, hold a button on your device to configure it.
 Hold any button down to go to the mapping screen and assign all the buttons appropriately (FYI- North East South West is Triangle, Circle, X, Square.
 Ensure to assign select as the hotkey enable button
-To change/add new controllers including wireless controllers go to main menu > Controllers settings
+To change/add new controllers including wireless controllers and change the assigned player 1/2/3/4 controllers go to main menu > Controllers settings
 
 **Enable Power/RESET Buttons and Power LED**
 Follow this video guide...
