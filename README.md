@@ -1,15 +1,16 @@
 # NB-RetroGames
 
-**Instructions:**
+**Set-up Instructions- Please note that due to copyright laws I cannot provide the game playing software or the games themselves. However it is easy to do and i'm happy to help out if you encounter any issues!**
 
-Insert blank micro SD card into computer.
+**Install recalbox Operating system**
+Insert blank micro SD card into computer (Open the disc drive
 Download Raspberry PI Imager https://www.raspberrypi.org/software/ 
 Install for your device (Windows or Mac).
 Open Raspberry Pi Imager and select ‘CHOOSE OS’.
 go to ‘Emulation and game OS > Recalbox (Pi4).
 Select ‘CHOOSE SD CARD’ and select your SD card from the list.
 Select WRITE  (This will take around 15mins.).
-Remove SD card and insert.
+Remove SD card and insert back into console (microchip side down)
 
 **Configure Controllers**
 On first start up a pop up will say x Gamepads detected, hold a button on your device to configure it.
@@ -29,6 +30,9 @@ In the text file delete the semi colon ; before the following lines near the top
 ;system.power.switch=PIN356ONOFFRESET    # https://github.com/recalbox/recalbox-os/wiki/Add-a-start-stop-button-to-your-recalbox-(EN)
 
 Click save. Then restart console using the controller. Buttons will now be working
+
+Please Note You must wait for the system to fully power down before unplugging as doing so will corrupt the SD Card
+Also please wait a few seconds after shutting down before attemping to turn on again. 
 
 
 **Set Audio Output to HDMI/3.5mm Headphone Jack**
