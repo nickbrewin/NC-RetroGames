@@ -33,6 +33,7 @@ Click save. Then restart console using the controller. Buttons will now be worki
 
 Please Note You must wait for the system to fully power down before unplugging as doing so will corrupt the SD Card
 Also please wait a few seconds after shutting down before attemping to turn on again. 
+System can take 30 seocnds to boot and will show blackscreen and the LED will turn off briefly. Please be patient :)
 
 
 **Set Audio Output to HDMI/3.5mm Headphone Jack**
